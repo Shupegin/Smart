@@ -1,4 +1,4 @@
-package sm.sm.smart
+package sm.sm.smart.activityandbottombar
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

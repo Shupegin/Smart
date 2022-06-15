@@ -1,4 +1,4 @@
-package sm.sm.smart
+package sm.sm.smart.activityandbottombar
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Home
@@ -17,11 +17,12 @@ sealed class BottomBarScreen(
         icon = Icons.Default.Home
     )
 
-    object Profile : BottomBarScreen(
-        route = "profile",
-        title = "Profile",
+    object Icon : BottomBarScreen(
+        route = "icons",
+        title = "Icon",
         icon = Icons.Default.Person
     )
+
 
     object Setting : BottomBarScreen(
         route = "setting",

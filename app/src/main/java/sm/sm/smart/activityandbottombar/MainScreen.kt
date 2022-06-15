@@ -1,4 +1,4 @@
-package sm.sm.smart
+package sm.sm.smart.activityandbottombar
 
 import android.content.Context
 import androidx.compose.foundation.layout.RowScope
@@ -26,7 +26,7 @@ fun MainScreen(context : Context){
 fun BottomBar(navController: NavHostController){
     val screens = listOf(
         BottomBarScreen.Home,
-        BottomBarScreen.Profile,
+        BottomBarScreen.Icon,
         BottomBarScreen.Setting
     )
     val navBackStackEntry by navController.currentBackStackEntryAsState()

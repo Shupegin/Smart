@@ -1,4 +1,4 @@
-package sm.sm.smart
+package sm.sm.smart.activityandbottombar
 
 import android.content.Context
 import androidx.compose.runtime.Composable
@@ -15,7 +15,7 @@ fun BottomNavGraph(navController: NavHostController, context: Context){
         composable(route = BottomBarScreen.Home.route){
             HomeScreen(context = context)
         }
-        composable(route = BottomBarScreen.Profile.route){
+        composable(route = BottomBarScreen.Icon.route){
             ProfileScreen()
         }
         composable(route = BottomBarScreen.Setting.route){
